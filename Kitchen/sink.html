@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen</title>
+    <link rel="stylesheet" href="sink.css">
+</head>
+<body>
+    <div class="background-container" id="bgContainer">
+        <button id="start-button" onclick="startInstruction()"></button>
+        <div class="items">
+            <div class="drying-button" onclick="callDrying()" id="drying-button"></div>
+            <div class="spray-bottle" onclick="callSpraying()" id="spray-button"></div>
+            <div class="sponge-button" onclick="callSponge()" id="sponge-button"></div>
+        </div>
+        <div id="countingPop" onclick="callDraining()">
+            <div id="count1"></div>
+            <div id="count2"></div>
+            <div id="count3"></div>
+        </div>
+        <div class="text-box" id="text-box"></div>
+    </div>
+
+    <script src="sink.js"></script>
+</body>
+</html>

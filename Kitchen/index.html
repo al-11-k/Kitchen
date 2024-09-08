@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body onload="prompt()">
+    <div class="background-container" id="bgContainer" onclick="music()">
+        <div class="levels">
+            <a href="./sink.html">
+            <div class="level1" id="level1"></div>
+            </a>
+            <a href="./fridge.html">
+                <div class="level2" id="level2"></div>
+            </a>
+            <div class="level3" id="level3" onclick="forbiddenLevel3()"></div>
+        </div>
+        <div class="text-box" id="text-box"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

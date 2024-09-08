@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen</title>
+    <link rel="stylesheet" href="fridge.css">
+</head>
+<body>
+    <div class="background-container" id="bgContainer">
+        <button id="start-button" onclick="startInstruction()"></button>
+        <div class="items">
+            <div class="heart-mag" onclick="heart()" id="heart-mag"></div>
+            <div class="spiral-mag" onclick="swirl()" id="spiral-mag"></div>
+            <div class="berry-mag" onclick="berry()" id="berry-mag"></div>
+            <div class="pear-mag" onclick="pear()" id="pear-mag"></div>
+            <div class="orange-mag" onclick="orange()" id="orange-mag"></div>
+            <div class="a-mag" onclick="a()" id="a-mag"></div>
+            <div class="r-mag" onclick="r()" id="r-mag"></div>
+            <div class="k-mag" onclick="k()" id="k-mag"></div>
+            <div class="flower-mag" onclick="flower()" id="flower-mag"></div>
+            
+        </div>
+        <button id="home-button" onclick="returnHome()"></button>
+        
+        <div class="text-box" id="text-box"></div>
+    </div>
+    <div class="fridge" id="fridge"></div>
+
+    <script src="fridge.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/home.png');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+    position: relative;
+}
+
+
+.text-box{
+    width: 30%;
+    height: 20%;
+    color: #F5EEE6;
+    border-color: #677415;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+    background-color: #899923;
+    position: fixed;
+    right: 10px;
+    top: 15px;
+    font-size: 25px;
+    padding-left: 5px;
+    margin-top: 15px;
+    position: fixed;
+    font-family: Verdana;
+}
+
+
+.levels{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    background-color: #555555;
+    border-style: solid;
+    border-color: #555555;
+    border-radius: 22px;
+}
+
+
+.level1{
+    width: 118px;
+    height: 111px;
+    border-radius: 12px;
+    background-image: url('images/count1.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #555555;
+    margin-right: 12px;
+}
+
+.level2{
+    width: 118px;
+    height: 111px;
+    border-radius: 12px;
+    background-image: url('images/count2.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #555555;
+    margin-right: 12px;
+}
+
+
+.level3{
+    width: 118px;
+    height: 111px;
+    border-radius: 12px;
+    background-image: url('images/count3.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #555555;
+}
+
+
+#opening-pop{
+    width: 100%;
+    height: 99%;
+    border-radius: 12px;
+    background-image: url('images/startFrame.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    z-index: 10;
+    align-content: center;
+    text-align: center;
+}
+
+
+#start-button{
+    width: 170px;
+    height: 50px;
+    background-image: url('images/start\ button.png');
+    background-size: cover;
+    background-position: center;
+    border-style: solid;
+    border-color: #CE9428;
+    border-width: 3px;
+    border-radius: 12px;
+    margin-top: 300px;
+    cursor: pointer;
+}
